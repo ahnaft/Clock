@@ -73,9 +73,10 @@ img{
     width: 100%;
     
 }
-}
+
 button{
     position: relative; left: 280px;
     border-radius: 5px;
     font-size: x-large;
   }
+}
