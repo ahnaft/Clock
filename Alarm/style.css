@@ -1,0 +1,191 @@
+body{
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}    
+
+
+html, body{
+    position:absolute;
+    top: 0%;
+    right:0%;
+    bottom:0%;
+    left:0%;
+    margin: 0%;
+    overflow: hidden;
+  }
+
+.set-alarm{
+    position: relative; left: 518px; top: 324px;
+  
+}
+
+.clear-alarm{
+    position: relative; left: 693px; top: 272px;
+}
+
+input{
+    position: relative; left: 591px; top: 290px;
+    
+}
+
+
+.clear-alarm {
+    width: 150px;
+    height: 50px;
+    
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+            box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+   }
+   
+   .clear-alarm, .clear-alarm span {
+    -webkit-transition: 200ms;
+    transition: 200ms;
+   }
+   
+   .clear-alarm .text {
+    -webkit-transform: translateX(35px);
+        -ms-transform: translateX(35px);
+            transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   .clear-alarm .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    -webkit-transform: translateX(110px);
+        -ms-transform: translateX(110px);
+            transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+   }
+   
+   .clear-alarm svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   .clear-alarm:hover {
+    background: #ff3636;
+   }
+   
+   .clear-alarm:hover .text {
+    color: transparent;
+   }
+   
+   .clear-alarm:hover .icon {
+    width: 150px;
+    border-left: none;
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+   }
+   
+   .clear-alarm:focus {
+    outline: none;
+   }
+   
+   .clear-alarm:active .icon svg {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
+   }
+
+
+   .set-alarm {
+    font-family: inherit;
+    font-size: 20px;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   .set-alarm span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   .set-alarm svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   .set-alarm:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   .set-alarm:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+   .set-alarm:hover span {
+    transform: translateX(5em);
+   }
+   
+   .set-alarm:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+   
+   
+
+   
+@media only screen and (max-width:640px){
+.clear-alarm{
+    position: relative; left: 110px;
+    margin-top: 65px;
+    
+}
+.set-alarm{
+    position: relative; left: 140px;
+    
+}
+
+input{
+    position: relative;
+    left: 95px;
+}
+
+}
+

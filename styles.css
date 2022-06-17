@@ -45,6 +45,11 @@ main{
 }
 
 
+button{
+    position: relative; left: 1250px;
+    border-radius: 5px;
+    font-size: x-large;
+  }
 @media only screen and (max-width:640px){
     p{
     text-align: center;
@@ -69,3 +74,8 @@ img{
     
 }
 }
+button{
+    position: relative; left: 280px;
+    border-radius: 5px;
+    font-size: x-large;
+  }

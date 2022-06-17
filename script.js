@@ -1,17 +1,17 @@
 
 
 
-setInterval(function(){ 
 
+setInterval(function(){ 
+    var background = document.body.background
+    var abo = document.getElementById("abortion")
+    var ampmss = document.getElementById("ampms")
+    var moinites = document.getElementById("min")
+    var secoindes = document.getElementById("sec")
+    var hours = (new Date()).getHours();
+    var minutes = (new Date()).getMinutes();
+    var seconds = (new Date()).getSeconds();
     //this code runs every second 
- var background = document.body.background
- var abo = document.getElementById("abortion")
-var ampmss = document.getElementById("ampms")
-var moinites = document.getElementById("min")
-var secoindes = document.getElementById("sec")
-var hours = (new Date()).getHours();
-var minutes = (new Date()).getMinutes();
-var seconds = (new Date()).getSeconds();
 var ampm = (hours >= 12) ? "PM" : "AM"
 abo.innerHTML = (hours % 12);
 moinites.innerHTML = (minutes);
