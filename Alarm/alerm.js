@@ -99,8 +99,8 @@ let alarmTimeout = null;
     }
 }
 
-
 function clearAlarm() {
+    
     audio.pause();
     if (alarmTimeout) {
         clearTimeout(alarmTimeout);
@@ -109,19 +109,5 @@ function clearAlarm() {
 }
 
 
-
-
-
-
-var currentTime = new Date().getHours();
-if (document.body) {
-    if (7 <= currentTime && currentTime < 20) {
-        document.body.background = "dayttime.jpg";
-    }
-    else {
-        document.body.background = "nighttime.jpg";
-    }
-}
-//notification
 
 
