@@ -1,5 +1,5 @@
 #abortion{
-    font-family: sans-serif;
+  font-family: 'Orbitron', sans-serif;
     font-size: 170px;
     color: white;
     display: flex;
@@ -7,32 +7,29 @@
    justify-content: center;
 }
     
+ 
 
-    
-  button{
-      text-decoration: none;
-      position: relative; left: 1230px; top: -595px;
-      font-family: monospace;
-      
-      font-size: 1.5rem;
-      color: #FAFAFA;
-      text-transform: uppercase;
-      padding: 10px 20px;
-      border-radius: 10px;
-      border: 2px solid #FAFAFA;
-      background: #252525;
-      box-shadow: 3px 3px #fafafa;
-      cursor: pointer;
-      margin: 35px 0;}
-    
-    button:active {
-      box-shadow: none;
-      transform: translate(3px, 3px);
-    }
-    
-    
-    
+button {
+  font-family: monospace;
+  font-size: 1.5rem;
+  color: #FAFAFA;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #FAFAFA;
+  background: #252525;
+  box-shadow: 3px 3px #fafafa;
+  cursor: pointer;
+  margin: 35px 0;
+  position: relative; top: -610px; left: 1200px;
+}
 
+button:active {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
+
+  
 ul{
     animation: bounce-in;
     animation-duration: 3s;
@@ -54,19 +51,14 @@ html, body{
     margin: 0%;
     overflow: hidden;
     padding: 0%;
+    background-color: #252525;
+
+    
+    
     
   }
-body{
-background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-margin: 0%;
 
-}
+
 
 main{
     width: auto;
@@ -76,6 +68,14 @@ main{
 
 
 @media only screen and (max-width:640px){
+ #abortion{
+  font-family: 'Orbitron', sans-serif;
+    font-size: 100px;
+    color: white;
+    float: left;
+    margin: 80px;
+    
+}
     p{
     text-align: center;
     width: 1.9em;

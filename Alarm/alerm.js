@@ -1,6 +1,13 @@
 const audio = new Audio('mixkit-retro-game-emergency-alarm-1000.wav');
 audio.loop = true;
 
+
+
+
+
+
+
+
 function rqnoti(){
     if(Notification.permission === "granted"){;
     }

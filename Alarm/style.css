@@ -1,3 +1,11 @@
+.set-alarm{
+  position: relative; left: 475px; top: 215px;
+}
+
+.clear-alarm{
+  position: relative; left: 738px; top: 216px;
+}
+
 body{
  
     background-position: center;
@@ -15,12 +23,10 @@ html, body{
     left:0%;
     margin: 0%;
     overflow: hidden;
-    background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #252525;
   }
 
-
+  
   button {
     font-family: monospace;
     font-size: 1.5rem;
@@ -31,7 +37,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
     border: 2px solid #FAFAFA;
     background: #252525;
     box-shadow: 3px 3px #fafafa;
-    cursor: pointer;
+    cursor:pointer;
     margin: 35px 0;
   }
   
@@ -60,14 +66,15 @@ input{
 
    
 @media only screen and (max-width:640px){
+
+ .set-alarm{
+  left: 150px;
+  top: 275px;
+ }
+
 .clear-alarm{
-    position: relative; left: 110px;
-    margin-top: 65px;
-    
-}
-.set-alarm{
-    position: relative; left: 140px;
-    
+  left: 58px;
+  top: 340px;
 }
 
 input{

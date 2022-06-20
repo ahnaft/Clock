@@ -1,3 +1,8 @@
+const checkbox = document.getElementById('dn')
+
+
+
+
 
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {
@@ -32,4 +37,5 @@ var total = hours % 12+ ":" + minutes + ":" + seconds;
 abo.innerHTML = (total);
 
 }, 100);
+
 
