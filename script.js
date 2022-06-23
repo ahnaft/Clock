@@ -29,7 +29,7 @@ setInterval(function(){
   var seconds = new Date().getSeconds();
   const oampm = hours >= 12 ? 'PM' : 'AM';
   
-  const total = hours / 12 + ":" + minutes + ":" + seconds;
+  const total = hours % 12 + ":" + minutes + ":" + seconds;
   
   ampm.innerHTML = oampm;
   clock.innerHTML = total;

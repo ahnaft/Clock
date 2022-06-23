@@ -104,15 +104,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 .clock{
-  font-size: 21vh;
+  font-size: 17vw;
   color: #519872;
  
 }
 .ampm{
-  font-size: 10vh;
+  font-size: 10vw;
   color: #519872;
   
 
@@ -154,3 +154,8 @@ button{
   }
 }
 
+.clock{
+ 
+  color: #519872;
+  
+}
