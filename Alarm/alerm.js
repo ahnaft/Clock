@@ -114,7 +114,3 @@ function clearAlarm() {
         alert('Alarm cleared');
     }
 }
-
-
-
-

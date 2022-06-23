@@ -1,32 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Clock</title>
-    <link rel="stylesheet" href="./styles.css">
+<html>
     <head>
-      
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-    </head>
   
-  <body>
-    
-    <main>
+     
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js" defer></script>
+      <title>Clock</title>
+    </head>
+    <body>
+      <nav class="navbar">
+        <div class="brand-title">Clock</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        
+        <dialog  class="modal" id="modal">
+          <h2>Made by Ahnaf 	&#x1F496</h2>
+          <button class="button close-button">Close</button>
+        </dialog>
+        
+
+
+          <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Alarm/alarm.html">Alarm</a></li>
+            <button id="open-button" class="open-button">About</button>
+          </ul>
+        </div>
+      </nav>
+
+
+
+     <div class="divclock" id="divclock">
+      <p id="clock" class="clock">00:00</p>
+      <p id="ampm" class="ampm"></p>
+     </div>
       
-      <ul class="animate_animated animate__shakeY">
-        <h3 id = "amorpms">PMORAM</h3>
-       <p id="abortion">00:00</p>
-       <button class="btn" onclick="window.location.href = 'Alarm/alarm.html'" style="text-decoration: none;">Alarm</button>
-      </ul>
-      
-    </main>
-  </body>
-  <script src="script.js"></script>
+
+
+
+    </body>
 </html>
